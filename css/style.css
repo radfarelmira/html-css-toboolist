@@ -8,4 +8,28 @@
 /*COMMON */
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #f6f8f9;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+}
+
+/* HEADER */
+header{
+    background-color: white;
+}
+/* Header logo */
+ .logo{
+    vertical-align: middle;
+}
+/* header h1 */
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .container{
+    padding: 10px;
 }
