@@ -51,11 +51,11 @@ main .container-box{
 }
 
 /* Main top buttons */
-.add{
+.btn{
     text-decoration-line: none;
     display: inline-block;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: center;
     line-height: 26px;
     font-size: 12px;
@@ -63,23 +63,89 @@ main .container-box{
     
 }
 
-.add.task{
+.btn.task{
     background-color:#47adf1 ;
     color: white;
     width: 90px;
     border: 2px solid #47adf1;
+    border-radius: 5px;
 }
 
-.add.section{
+.btn.section{
     background-color:white ;
     color: #e2e5e8;
     width: 120px;
     border: 2px solid #e2e5e8;
+    border-radius: 5px;
 }
 /* main vertical line */
 .verticalline{
     width: 100%;
-    height: 50px;
+    height: 5px;
     border-top: 2px solid #f6f8f9;
-    margin-top: 20px;
+    margin-top: 10px;
+}
+/* Main section ul */
+ul{
+    list-style-type: none;
+    line-height: 40px;
+    font-weight: 700;
+    color: grey;
+}
+.first-list{
+    margin-bottom: 20px;
+}
+
+ul h2{
+    font-size: 22px;
+    color: black;
+}
+
+.btn.editorial{
+    background-color:#47adf1 ;
+    color: white;
+    width: 75px;
+    border: 2px solid #47adf1;
+}
+
+.symbol{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.symbol.check{
+    color: #88d0be;
+    border: 2px solid #88d0be;
+}
+
+.symbol.cross{
+    color:#ef7c78;
+    border: 2px solid #ef7c78;
+}
+
+.btn.goals{
+    background-color:#9c72e4 ;
+    color: white;
+    width: 85px;
+    border: 2px solid #9c72e4;
+}
+
+.btn.recruiting{
+    background-color:#64c0a9 ;
+    color: white;
+    width: 85px;
+    border: 2px solid #64c0a9;
+}
+
+.btn.mobile{
+    background-color:#f29e33 ;
+    color: white;
+    width: 60px;
+    border: 2px solid #f29e33;
 }
