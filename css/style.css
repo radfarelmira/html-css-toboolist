@@ -11,12 +11,8 @@ body{
     background-color: #f6f8f9;
 }
 
-.container{
-    width: 95%;
-    margin: auto;
-}
-
 /* HEADER */
+
 header{
     background-color: white;
 }
@@ -30,6 +26,60 @@ header h1{
     vertical-align: middle;
 }
 
-header .container{
+.container-header{
+    width: 95%;
+    margin: auto;
     padding: 10px;
+}
+
+/* MAIN */
+
+/* Main container box */
+main .container-box{
+    width: 60%;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.container-main{
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* Main top buttons */
+.add{
+    text-decoration-line: none;
+    display: inline-block;
+    height: 30px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+.add.task{
+    background-color:#47adf1 ;
+    color: white;
+    width: 90px;
+    border: 2px solid #47adf1;
+}
+
+.add.section{
+    background-color:white ;
+    color: #e2e5e8;
+    width: 120px;
+    border: 2px solid #e2e5e8;
+}
+/* main vertical line */
+.verticalline{
+    width: 100%;
+    height: 50px;
+    border-top: 2px solid #f6f8f9;
+    margin-top: 20px;
 }
