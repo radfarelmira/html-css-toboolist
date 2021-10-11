@@ -1,172 +1,125 @@
 /* RESET */
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*COMMON */
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
+/* COMMON */
+body {
+    font-family: Arial;
     background-color: #f6f8f9;
+}
+ul {
+    list-style-type: none;
 }
 
 /* HEADER */
-
-header{
+header {
     background-color: white;
-}
-
-.container-header{
-    width: 95%;
-    margin: auto;
     padding: 10px;
 }
-
-/* Header logo */
- .logo{
-    vertical-align: middle;
-}
-/* header h1 */
-header h1{
+.logo {
     display: inline-block;
     vertical-align: middle;
+    width: 50px;
+}
+.logo-text {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 40px;
+    font-weight: 800;
 }
 
 /* MAIN */
-
-/* Main container box */
-main .container-box{
-    width: 60%;
-    margin: auto;
-    margin-top: 30px;
+.main-container {
     background-color: white;
-    border-radius: 5px;
+    width: 65%;
+    margin: 40px auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
-
-.container-main{
-    width: 80%;
-    margin: auto;
-    padding-top: 20px;
-    padding-bottom: 10px;;
-
+/* Buttons section */
+.buttons-section {
+    padding: 10px 40px;
+    border-bottom: 2px solid #f6f8f9;
 }
-
-/* Main top buttons */
-.btn{
-    text-decoration-line: none;
+.btn {
     display: inline-block;
-    height: 30px;
-    border-radius: 15px;
-    text-align: center;
-    line-height: 26px;
-    font-size: 12px;
-    font-weight: 600;
-    
-}
-
-.btn.task{
-    background-color:#47adf1 ;
-    color: white;
-    width: 90px;
-    border: 2px solid #47adf1;
+    border-style: solid;
+    border-width: 1px;
+    text-decoration: none;
+    padding: 7px 15px;
     border-radius: 5px;
 }
-
-.btn.section{
-    background-color:white ;
-    color: #e2e5e8;
-    width: 120px;
-    border: 2px solid #e2e5e8;
-    border-radius: 5px;
-}
-/* main vertical line */
-.verticalline{
-    width: 100%;
-    height: 5px;
-    border-top: 2px solid #f6f8f9;
-    margin-top: 10px;
-}
-/* Main section ul */
-ul{
-    list-style-type: none;
-    line-height: 40px;
-    font-weight: 700;
-    color: grey;
-}
-
-.first-list{
-    margin-bottom: 20px;
-}
-
-ul h2{
-    font-size: 22px;
-    color: black;
-}
-
-.btn.editorial{
-    background-color:#47adf1 ;
+.btn-cyan {
+    background-color: #14aaf5;
     color: white;
-    width: 75px;
-    border: 2px solid #47adf1;
+    border-color: #14aaf5;
 }
-/* Main symbols */
-.symbol{
-    display: inline-block;
-    width: 24px;
-    height: 24px;
+.btn-white {
     background-color: white;
-    text-align: center;
-    line-height: 22px;
+    color: lightgray;
+    border-color: lightgray;
+}
+/* Tasks list section */
+.task-list {
+    padding: 35px 40px;
+}
+.arrow-down {
+    font-size: 23px;
+}
+.main-list li {
+    padding-bottom: 10px;
+}
+.main-list-title {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 800;
+}
+.sublist li {
+    padding: 10px 0;
+}
+.circle {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
-    vertical-align: middle;
+    text-align: center;
+    line-height: 20px;
 }
-
-.symbol.check{
-    color: #88d0be;
-    border: 2px solid #88d0be;
+.circle-green {
+    color: #2cc6ab;
+    border-color: #2cc6ab;
 }
-
-.symbol.cross{
-    color:#ef7c78;
-    border: 2px solid #ef7c78;
+.circle-red {
+    color: red;
+    border-color: red;
 }
-/* Main ul buttons */
-.btn.goals{
-    background-color:#9c72e4 ;
+.tag {
+    border: 1px solid black;
+    padding: 3px 5px;
+    font-size: 12px;
+    border-radius: 10px;
     color: white;
-    width: 85px;
-    border: 2px solid #9c72e4;
 }
 
-.btn.recruiting{
-    background-color:#64c0a9 ;
-    color: white;
-    width: 85px;
-    border: 2px solid #64c0a9;
+.editoriale {
+    background-color: #14aaf5;
+    border-color: #14aaf5;
+}
+.q-1 {
+    background-color: purple;
+    border-color: purple;
 }
 
-.btn.mobile{
-    background-color:#f29e33 ;
-    color: white;
-    width: 60px;
-    border: 2px solid #f29e33;
+.website{
+    background-color: pink;
+    border-color: pink;
 }
 
-.btn.website{
-    background-color: #d863a1;
-    color: white;
-    width: 70px;
-    border: 2px solid #d863a1;
+.mobiles{
+    background-color: orange;
+    border-color: orange;
 }
-
-.btn.sales{
-    background-color: #b0c926;
-    color: white;
-    width: 50px;
-    border: 2px solid #b0c926;
-}
-
-

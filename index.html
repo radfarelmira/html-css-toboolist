@@ -4,69 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toboolist</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <title>Toboolist</title>
 </head>
 <body>
-    <!--Header-->
+    
+    <!-- HEADER -->
     <header>
-        <div class="container-header">
-            <img class="logo" src="img/logo.png" alt="Toboolist logo">
-            <h1>Toboolist</h1>
-        </div>
+        <img class="logo" src="img/logo.png" alt="Toboolist logo">
+        <span class="logo-text">Toboolist</span>
     </header>
-    <!-- End header -->
-    <!-- Main -->
+    <!-- END HEADER -->
+
+
+    <!-- MAIN -->
     <main>
-        <div class="container-box">
-            <!--Main top buttons -->
-            <div class="container-main">
-                <a class="btn task" href="#">Add Task</a>
-                <a class="btn section" href="#">Add Section</a>
+        <div class="main-container">
+            <!-- Buttons section -->
+            <div class="buttons-section">
+                <a href="#" class="btn btn-cyan">Add tasks</a>
+                <a href="#" class="btn btn-white">Add section</a>
             </div>
-            <!--Vertical line -->
-            <div class="verticalline"></div>
-            <!--Main section ul -->
-            <div class="container-main">
 
-                <ul class="first-list">
+            <!-- Tasks list section -->
+            <div class="task-list">
+                <ul class="main-list">
+                    <!-- Main element -->
                     <li>
-                        <h2>&#9662 New Task</h2>
-                        <ul>
-                            <li><span class="symbol check">&check;</span>  Quarterly Newsletter <a class="btn editorial" href="#">Editorial</a></li>
+                        <span class="arrow-down">&#9662;</span> 
+                        <h3 class="main-list-title">New Task</h3>
+
+                        <ul class="sublist">
+                            <li>
+                                <span class="circle circle-green">&check;</span>
+                                Quarterly Newsletter
+                                <span class="tag editoriale">Editoriale</span>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Main element -->
+                    <li>
+                        <span class="arrow-down">&#9662;</span> 
+                        <h3 class="main-list-title">Today</h3>
+
+                        <ul class="sublist">
+                            <li>
+                                <span class="circle circle-green">&check;</span>
+                                Recruiting blog post
+                                <span class="tag q-1">Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="circle circle-green">&check;</span>
+                                Mobile app luaunch
+                                <span class="tag editoriale">Editoriale</span>
+                            </li>
+                            <li>
+                                <span class="circle circle-red">&cross;</span>
+                                Interview John H.
+                                <span class="tag website">Website</span> 
+                            </li>
+                            <li>
+                                <span class="circle circle-green">&check;</span>
+                                Summit update to mobiile storefronts
+                                <span class="tag mobiles">Mobiles</span> 
+                            </li>
+                        </ul>
+                    </li>
+
+                    <!-- Main element -->
+                    <li>
+                        <span class="arrow-down">&#9662;</span> 
+                        <h3 class="main-list-title">Upcoming</h3>
+
+                        <ul class="sublist">
+                            <li>
+                                <span class="circle circle-red">&cross;</span>
+                                Schedule meeting with Alex
+                                <span class="tag q-1">Q1 Goals</span>
+                            </li>
+                            <li>
+                                <span class="circle circle-green">&check;</span>
+                                Homepage refresh
+                                <span class="tag website">Website</span>
+                            </li>
+                            <li>
+                                <span class="circle circle-red">&cross;</span>
+                                Onboard new Sales team members
+                                <span class="tag mobiles">Mobiles</span> 
+                            </li>
+                            <li>
+                                <span class="circle circle-green">&check;</span>
+                                Review editorial calendar
+                                <span class="tag editoriale">Editoriale</span>
+                            </li>
                         </ul>
                     </li>
                 </ul>
-
-                <ul class="first-list">
-                    <li>
-                        <h2>&#9662 Today</h2>
-                        <ul>
-                            <li><span class="symbol check">&check;</span>  Recuriting blog post <a class="btn editorial" href="#">Editorial</a></li>
-                            <li><span class="symbol check">&check;</span>  Mobile app luaunch <a class="btn goals" href="#">Q1 Goals</a></li>
-                            <li><span class="symbol cross">&cross;</span>  Interview John H. <a class="btn recruiting" href="#">Recruiting</a></li>
-                            <li><span class="symbol check">&check;</span>  Summit update to mobile storefronts <a class="btn mobile" href="#">Mobile</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
-                <ul class="first-list">
-                    <li>
-                        <h2>&#9662 Upcoming</h2>
-                        <ul>
-                            <li><span class="symbol cross">&cross;</span> Schedule meeting with Alex</li>
-                            <li><span class="symbol check">&check;</span> Homepage refresh <a class="btn website" href="#">Website</a></li>
-                            <li><span class="symbol check">&check;</span> Onboard new Sales team members <a class="btn sales" href="#">Sales</a></li>
-                            <li><span class="symbol check">&check;</span> Review editorial calender <a class="btn editorial" href="#">Editorial</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
             </div>
-            
         </div>
     </main>
-    <!-- End main -->
+    <!-- MAIN -->
 </body>
 </html>
